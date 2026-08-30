@@ -20,14 +20,24 @@ agregarBtn.addEventListener("click", function () {
     const textoTarea = document.createElement("span");
     textoTarea.textContent = texto;
 
+    // Marcar tarea como completada
     checkbox.addEventListener("change", function () {
         textoTarea.style.textDecoration = checkbox.checked
             ? "line-through"
             : "none";
     });
 
+    // Botón para eliminar
+    const eliminarBtn = document.createElement("button");
+    eliminarBtn.textContent = "Eliminar";
+
+    eliminarBtn.addEventListener("click", function () {
+        nuevaTarea.remove();
+    });
+
     nuevaTarea.appendChild(checkbox);
     nuevaTarea.appendChild(textoTarea);
+    nuevaTarea.appendChild(eliminarBtn);
 
     listaTareas.appendChild(nuevaTarea);
 
@@ -46,5 +56,3 @@ limpiarBtn.addEventListener("click", function () {
         }
     });
 });
-
- 
