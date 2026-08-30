@@ -21,7 +21,7 @@ Elegimos trabajar con un enfoque ágil utilizando Kanban porque somos un equipo 
 ## Integrantes del equipo
 
 - Ximena Zepeda Ruiz — @XimenaZepedaRuiz
-- Eidy Elizabeth Martinez Martinez — @elizabeth05S
+- Eidy Elizabeth Martinez Martinez — @elizabeth05
 
 ## Fuente del proyecto
 
